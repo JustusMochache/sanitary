@@ -1,3 +1,4 @@
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -16,6 +17,11 @@ body {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
+
+#slideshow {
+    width: 100%;
+    
+  }
 
 form {
     width: 20%;
