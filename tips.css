@@ -1,12 +1,15 @@
-.card>img {
+.card > img {
 	/* border-radius: 50%; */
 	transition: 0.2s ease-out;
+	background-color: pink;
 }
-.card>img:hover {
-	transform: scale(1.5);
+.card > img:hover {
+	transform: scale(1.1);
 	padding: 3px;
 	margin: -3px;
 	box-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
-
+.card {
+	background-color: pink;
+}
