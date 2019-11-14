@@ -8,10 +8,13 @@
 }
 
 body {
-    background-image: linear-gradient(hotpink, skyblue);
-    background-repeat: no-repeat;
-    background-position: cover;
-    height: 100vh;
+
+
+	background-image: linear-gradient(pink, skyblue);
+	background-repeat: no-repeat;
+	background-position: cover;
+	height: 100vh;
+
 }
 
 #para {
