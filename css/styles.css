@@ -1,37 +1,53 @@
 .footer {
-	position: fixed;
-	bottom: 0;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	text-align: center;
+    position: fixed;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
 }
 
 body {
+
+
 	background-image: linear-gradient(pink, skyblue);
 	background-repeat: no-repeat;
 	background-position: cover;
 	height: 100vh;
+
 }
 
 #para {
-	font-size: 20px;
-	text-align: center;
-	font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #slideshow {
-	width: 100%;
+    width: 100%;
 }
 
 form {
-	width: 20%;
-	box-sizing: border-box;
-	margin: 0 auto;
+    width: 20%;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 #your {
-	font-size: 40px;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-weight: bold;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+#con {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#cont {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
 }
