@@ -8,20 +8,10 @@
 }
 
 body {
-<<<<<<< HEAD
     background-image: linear-gradient(pink, skyblue);
     background-repeat: no-repeat;
     background-position: cover;
     height: 100vh;
-=======
-
-
-	background-image: linear-gradient(pink, skyblue);
-	background-repeat: no-repeat;
-	background-position: cover;
-	height: 100vh;
-
->>>>>>> 5796d563ce6ae4264da1e56fdf62e0be9ba3c5cd
 }
 
 #para {
