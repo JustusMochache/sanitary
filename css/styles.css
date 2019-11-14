@@ -8,6 +8,10 @@
     text-align: center;
 }
 
+body {
+    background: rgb(238, 182, 238);
+}
+
 #para {
     font-size: 20px;
     text-align: center;
@@ -18,12 +22,15 @@
     width: 100%;
     
   }
-  
-  /* #slideshow > div {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-  } */
 
+form {
+    width: 20%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#your {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
