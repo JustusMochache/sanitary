@@ -13,4 +13,8 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-form {}
+form {
+    width: 20%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
