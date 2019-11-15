@@ -13,6 +13,7 @@ $(document).ready(function() {
 
     $('#sub').click(function(event) {
 
+
         var name = $('#name11').val();
         var emailAddress = $('#email1').val();
         var phoneNumber = $('#phoneNumber').val();
@@ -30,3 +31,4 @@ $(document).ready(function() {
 
     });
 })
+
