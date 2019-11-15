@@ -1,3 +1,4 @@
+ 
 
 @import url('https://fonts.googleapis.com/css?family=Nosifer&display=swap');
 ul li{
@@ -14,7 +15,7 @@ ul li a{
     list-style-type: none;
     text-decoration: none;
     font-size: 30px;
-    color: black;
+    color: purple;
 }
 .nav{
     float:center ;
@@ -27,8 +28,20 @@ ul li a:hover{
     color:hotpink;
 }
 
+.footer {
+    position: fixed;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
 body {
-    background: rgb(238, 182, 238);
+    background-image: linear-gradient(pink, skyblue);
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 100vh;
 }
 
 #para {
@@ -36,19 +49,7 @@ body {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
-/* 
-#slideshow {
-    width: 100%;
-   margin: 0%;   
-  }
 
-#slideshow > div {
-    position: absolute; */
-    /* left: 10px;
-    right: 10px;
-    bottom: 10px;
-    /* width: 100vw; */
-*/
 
 form {
     width: 20%;
