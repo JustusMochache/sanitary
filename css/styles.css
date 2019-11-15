@@ -31,7 +31,7 @@ form {
 }
 
 #your {
-    font-size: 40px;
+    font-size: 38px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
 }
@@ -45,7 +45,7 @@ form {
 
 #cont {
     text-align: center;
-    font-size: 41px;
+    font-size: 40px;
     font-family: 'Courgette', cursive;
 }
 
@@ -72,8 +72,8 @@ form {
 }
 
 #parag {
-    font-size: 24px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-family: fantasy;
 }
 
 #info {
