@@ -88,9 +88,10 @@ form {
     padding: 3%;
 }
 
-#name1 {
+.name1 {
     font-size: 20px;
     text-align: center;
+    padding: 6%;
 }
 
 #na {
@@ -98,7 +99,8 @@ form {
     font-weight: bold;
 }
 
-#paym {
-    font-size: 25px;
+.paym {
+    font-size: 20px;
     text-align: center;
+    padding: 7%;
 }
