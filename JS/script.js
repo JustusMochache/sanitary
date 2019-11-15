@@ -8,3 +8,6 @@ setInterval(function() {
     .end()
     .appendTo('#slideshow');
 }, 3000);
+
+
+alert("vvhj,hv,hj");
