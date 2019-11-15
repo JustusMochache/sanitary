@@ -1,0 +1,64 @@
+ul li{
+    float:right;
+    list-style-type: none;
+    padding: 15px 30px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+.nav{
+    float:center ;
+    list-style-type:none;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color:hotpink;
+}
+.header{
+    margin-bottom: 1%;
+}
+.buttonDonate{
+    text-align: center;
+    color: aqua;
+    padding: 21px;
+}
+button{
+    color: blueviolet;
+    padding: 21px;
+    border-radius: 40%;
+    background: aqua;
+}
+.container-icons{
+text-align: center;
+/* margin-left: 50%;
+margin-right: 50%; */
+}
+.header{
+    margin-bottom: 1%;
+}
+.buttonDonate{
+    text-align: center;
+    color: aqua;
+    padding: 21px;
+}
+button{
+    color: blueviolet;
+    padding: 21px;
+    border-radius: 40%;
+    background:hotpink;
+}
+.container-icons{
+text-align: center;
+/* margin-left: 50%;
+margin-right: 50%; */
+}
