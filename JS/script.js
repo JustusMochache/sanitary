@@ -13,10 +13,10 @@ $(document).ready(function() {
 
     $('#sub').click(function(event) {
 
-        var name = $('#name1').val();
-        var emailAddress = $('#name1').val();
-        var phoneNumber = $('#name1').val();
-        var passWord = $('#name1').val();
+        var name = $('#name11').val();
+        var emailAddress = $('#email1').val();
+        var phoneNumber = $('#phoneNumber').val();
+        var passWord = $('#pass').val();
         var comment = $('#comment');
         var key = '43ab10333d46e19325f96d210ed40c49-us5';
         if (name == '' || emailAddress == '' || phoneNumber == '' || passWord == '' || comment == '') {
