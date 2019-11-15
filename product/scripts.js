@@ -3,17 +3,21 @@ $(document).ready(function() {
     $("#contact-form").show();
   });
 
-  var name = $("input#name").val();
-  var number = $("input#number").val();
-  var sanitary = $("#sanitary:checked").val();
+  $("button#submitbtn").click(function() {
+    let name = $("input#name").val();
+    let number = $("input#number").val();
+    let sanitary = $("#sanitary:checked").val();
 
-    $("#contact-form").submit (function(event) {
-      if ($("input#name").val() == name && $("input#number").val()) {
-        alert("Hey " + name + ", thank you for contacting us, your request for " 
-        +  sanitary  + "  will receive an SMS notifiction soon for the pickup"
-        );
-      } else {
-        alert("Please provide your correct name and phone number");
-      }
-    });
+    if (name == "" || number == "" || sanitary == "") {
+      alert("Please provide your correct name and phone number");
+    } else {
+      alert(
+        "Hey " +
+          name +
+          ", thank you for contacting us, your request for " +
+          sanitary +
+          " will receive an SMS notifiction soon for the pickup"
+      );
+    }
   });
+});

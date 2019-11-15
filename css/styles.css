@@ -70,6 +70,7 @@ form {
     color: aqua;
     padding: 21px;
 }
+
 button{
     color: black;
     padding: 21px;
@@ -85,4 +86,54 @@ margin-right: 50%; */
 nav h1{
     font-family: 'Nosifer', cursive;
     color: hotpink;
+
+
+#name2 {
+    padding: 8%;
+    width: 400px;
+}
+
+#phoneNumber {
+    padding: 8%;
+    width: 400px;
+}
+
+#email {
+    padding: 8%;
+    width: 400px;
+}
+
+#parag {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#info {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 3%;
+}
+
+#pay {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 3%;
+}
+
+.name1 {
+    font-size: 20px;
+    text-align: center;
+    padding: 6%;
+}
+
+#na {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.paym {
+    font-size: 20px;
+    text-align: center;
+    padding: 7%;
+
 }
