@@ -1,6 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nosifer&display=swap');
 body {
     background: url("https://bit.ly/2CFtMnl");
 }
 #images {
     margin-top: 20px;
+}
+nav h1{
+    font-family: 'Nosifer', cursive;
+    color: hotpink;
 }
