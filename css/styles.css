@@ -50,7 +50,25 @@ form {
 }
 
 #contact {
-    font-size: 30px;
+    font-size: 34px;
+    text-align: center;
+    font-weight: bold;
+    padding: 4%;
+}
+
+#name2 {
+    padding: 8%;
+    width: 400px;
+}
+
+#phoneNumber {
+    padding: 8%;
+    width: 400px;
+}
+
+#email {
+    padding: 8%;
+    width: 400px;
 }
 
 #parag {
@@ -72,6 +90,7 @@ form {
 
 #name1 {
     font-size: 20px;
+    text-align: center;
 }
 
 #na {
@@ -81,4 +100,5 @@ form {
 
 #paym {
     font-size: 25px;
+    text-align: center;
 }
