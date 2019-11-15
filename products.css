@@ -16,3 +16,18 @@ body {
     background-position: cover;
     height: 100vh;
 }
+  #name {
+    margin-right: 50%;
+    width: 30%;
+  }
+  #number{
+    margin-left: 50%;
+    width: 60%;
+  }
+  #submitbtn {
+    color: deeppink;
+    border: 2px solid lightskyblue;
+    background-color: white;
+    border-radius: 10px;
+  }
+
