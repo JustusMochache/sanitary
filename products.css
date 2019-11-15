@@ -1,25 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nosifer&display=swap');
 body {
     background: url("https://bit.ly/2CFtMnl");
 }
 #images {
     margin-top: 20px;
 }
-
-#btn {
-    color: deeppink;
-    border: 2px solid lightskyblue;
-    background-color: white;
-    border-radius: 10px;
-}
-textarea {
-    margin-top: 5vh;
-    height: 40vh;
-    width: 40%;
-}
-#contact-form {
-    padding-top: 20px;
-    margin-left: 30%;
-    display: none;
+nav h1{
+    font-family: 'Nosifer', cursive;
+    color: hotpink;
 }
   #name {
     margin-right: 50%;
@@ -35,3 +24,4 @@ textarea {
     background-color: white;
     border-radius: 10px;
   }
+

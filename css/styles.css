@@ -1,3 +1,33 @@
+ 
+
+@import url('https://fonts.googleapis.com/css?family=Nosifer&display=swap');
+ul li{
+    float:right;
+    list-style-type: none;
+    padding: 15px 30px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 30px;
+    color: purple;
+}
+.nav{
+    float:center ;
+    list-style-type:none;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color:hotpink;
+}
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -20,9 +50,6 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-#slideshow {
-    width: 100%;
-}
 
 form {
     width: 20%;
@@ -31,30 +58,38 @@ form {
 }
 
 #your {
-    font-size: 40px;
+    font-size: 38px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
 }
+.header{
+    margin-bottom: 1%;
+}
+.buttonDonate{
 
-#con {
     font-size: 40px;
-    font-weight: bold;
-    font-family: sans-serif;
-    text-align: center;
-}
-
-#cont {
-    text-align: center;
-    font-size: 41px;
     font-family: 'Courgette', cursive;
+    color: aqua;
+    padding: 21px;
+
 }
 
-#contact {
-    font-size: 34px;
-    text-align: center;
-    font-weight: bold;
-    padding: 4%;
+button{
+    color: black;
+    padding: 21px;
+    border-radius: 40%;
+    background:hotpink;
 }
+.container-icons{
+text-align: center;
+/* margin-left: 50%;
+margin-right: 50%; */
+}
+
+nav h1{
+    font-family: 'Nosifer', cursive;
+    color: hotpink;
+
 
 #name2 {
     padding: 8%;
@@ -72,8 +107,8 @@ form {
 }
 
 #parag {
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-family: fantasy;
 }
 
 #info {
@@ -88,9 +123,10 @@ form {
     padding: 3%;
 }
 
-#name1 {
+.name1 {
     font-size: 20px;
     text-align: center;
+    padding: 6%;
 }
 
 #na {
@@ -98,7 +134,9 @@ form {
     font-weight: bold;
 }
 
-#paym {
-    font-size: 25px;
+.paym {
+    font-size: 20px;
     text-align: center;
+    padding: 7%;
+
 }
