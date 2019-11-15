@@ -2,7 +2,7 @@ $(document).ready(function() {
   $("#btn").click(function() {
     $("#contact-form").show();
   });
-
+  
   $("button#submitbtn").click(function() {
     let name = $("input#name").val();
     let number = $("input#number").val();
