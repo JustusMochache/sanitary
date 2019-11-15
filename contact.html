@@ -13,8 +13,28 @@
 </head>
 
 <body>
-    <p>Contact</p>
-    <p>For more information please use the following to contact us:</p>
+    <p id="con">CONTACT.</p>
+    <p id="cont">For more information please get in touch with us:</p>
+
+    <form>
+        <div class="form-group" id="contact">
+            <label for="Name">Name:</label>
+            <input type="email" class="form-control" id="name2" aria-describedby="emailHelp" placeholder="Name">
+            <small id="nameHelp" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group" id="contact">
+            <label for="phone">Phone Number:</label>
+            <input type="phoneNumber" class="form-control" id="phoneNumber" aria-describedby="emailHelp" placeholder="Enter Phone Number">
+            <small id="phoneN" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group" id="contact">
+            <label for="exampleInputEmail1">Email address:</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted"></small>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
 
 </body>
 
